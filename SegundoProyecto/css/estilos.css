@@ -1,0 +1,30 @@
+ @font-face {
+   font-family: "Play";
+   src : url("../Fuentes/NunitoSans-Bold.ttf");
+ }
+
+body {
+      padding-top: 5;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: "Play", serif;
+      line-height: 10px;
+   }
+#titulo {
+   display: flex;
+      justify-content: center;
+    width: 100%;
+   background-color: rgb(255);
+   padding: 2%;
+
+}
+#contenedor {
+   	display: flex;
+   	justify-content: center;
+   	width: 100%;
+      background-color: rgb(255);
+   }
+
