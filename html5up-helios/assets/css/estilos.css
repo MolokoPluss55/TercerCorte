@@ -1,0 +1,29 @@
+
+@font-face {
+   font-family: "ProximaNova";
+   src : url("../../fuentes/ProximaNova-Regular.otf");
+ }
+
+body {
+      padding-top: 5;
+      margin: 0;
+      display: flex;
+        flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: ProximaNova;
+      background-color: #181b28;
+      color: #fff;
+   
+}
+
+#contenedor {
+   	display: flex;
+   	justify-content: center;
+   	width: 100%;
+  	background-color: #181b28;
+}
+
+input[type="checkbox"] + label {
+    color:  #fff;
+}
